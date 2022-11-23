@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\frontend;
+namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 
@@ -19,9 +19,9 @@ class FrontendController extends Controller
     {
         return view('pages.frontend.doctor');
     }
-    public function treatments()
+    public function services()
     {
-        return view('pages.frontend.treatments');
+        return view('pages.frontend.services');
     }
     public function blogs()
     {
